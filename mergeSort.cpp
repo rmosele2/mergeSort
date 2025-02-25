@@ -53,6 +53,9 @@ void mergeSort(std::vector<int>& arr, int left, int right) {
 }
 
 int main(int argc, char* argv[]) {
+	
+	std::cerr << argc << std::endl;
+
     if (argc != 2) {
         std::cerr << "Usage: " << argv[0] << " <array_size>" << std::endl;
         return 1;
